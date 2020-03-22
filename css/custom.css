@@ -1,0 +1,476 @@
+/* ===============================================
+Google fonts
+==================================================*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand:70|Source+Sans0+Pro:300,400,400i,600,700&display=swap');
+/* 
+
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Sans Pro' sans-serif;
+
+*/
+
+
+/* ===============================================
+Global Sectors
+==================================================*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro'sans-serif;
+}
+
+/* ===============================================
+Header section
+==================================================*/
+.header-section {
+    width: 100%;
+    background-image: url(../img/background.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+    font-weight: 600;
+    background-image: url(../img/bottom-bar.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    color: white;
+
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    background-image: url(../img/bottom-bar.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.banner-section {
+    padding: 100px 0px;
+}
+
+.banner-section .banner-inner {
+    padding: 100px 0px;
+}
+
+.banner-section .banner-inner h2 {
+    font-weight: 700;
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.banner-section .banner-inner h3 {
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.banner-section .banner-inner p {
+    font-size: 18px;
+    color: #999999;
+}
+
+.banner-inner .left-btm {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #008ed6;
+    padding: 15px 25px;
+    margin-right: 20px;
+}
+
+.banner-inner .right-btm,
+.eye-button .left {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #008ed600;
+    padding: 15px 25px;
+}
+.btn-primary:hover {
+    color: #fff;
+    border-color: #0062cc;
+}
+
+
+/* ===============================================
+Features section
+==================================================*/
+
+.features-section {
+    width: 100%;
+    padding: 30px 0px 50px;
+    border-bottom: 1px solid #aeaeae21;
+}
+
+.features-section .features-inner {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.features-section .features-inner h2 {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #008ed6;
+}
+
+.features-section .features-inner h3 {
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.features-section .features-inner img {}
+
+.features-item {}
+
+.features-item h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.features-item p {
+    font-size: 18px;
+}
+
+/* ===============================================
+About section
+==================================================*/
+.about-section {
+    width: 100%;
+    padding: 100px 0px;
+    background: white;
+}
+
+.col-md-6 .phone-img {}
+
+.phone-img img {
+    width: 100%;
+}
+
+.about-text {
+    padding: 100px 0px;
+}
+
+.about-text h2,
+.aboutshort-text h2,
+.testimonials-title h2,
+.pricings-title h2,
+.contact-title h2 {
+
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #44ade1;
+}
+
+.about-text h3,
+.aboutshort-text h3,
+.testimonials-title h3,
+.pricings-title h3,
+.contact-title h3{
+
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.about-text img {
+    margin-right: 15px;
+}
+
+.about-text p,
+.aboutshort-text p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 25px;
+}
+
+.about-text .t-bold {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+/* ===============================================
+About section
+==================================================*/
+.aboutshort-section {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #f2f2f2;
+}
+
+.aboutshort-text img {
+    margin-bottom: 15px;
+}
+
+.aboutshort-img img {
+    width: 100%;
+}
+
+/* ===============================================
+Testimonials section
+==================================================*/
+
+.testimonials-section {
+    width: 100%;
+    background-image: url('../img/Prostokat4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px;
+}
+
+.testimonials-title {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.testimonials-title h3 {
+    color: white;
+}
+.testimonials p {
+    font-style: italic;
+    font-size: 22px;
+    color: white;
+}
+.testimonials img {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.testimonials h3{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+.testimonials span {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.main-box{
+    width: 100%;
+    margin-top: 70px;
+}
+.main-box img{
+    display: block;
+    margin: auto;
+}
+
+/* ===============================================
+Eye-catcher section
+==================================================*/
+.Eye-catcher-section {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #15141a;
+}
+.eye-text p {
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+.eye-text span{
+    font-weight: 500;
+}
+
+.eye-button .right{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #008ed6;
+    padding: 15px 12px;
+    margin-right: 20px;
+    outline: none;
+}
+.eye-button .right:last-child{
+    margin-right: 0;
+}
+
+/* ===============================================
+Pricings section
+==================================================*/
+.Pricings-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+.pricings-title{
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+.card .title h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.border-success {
+    border-color: #e1e1e1 !important;
+}
+.card-title.mid-text {
+    font-weight: 700;
+    font-size: 48px;
+    color: #1a1a1a;
+    margin-bottom: 0px;
+}
+.card-text.text{
+    font-size: 18px;
+    color: #b4b4b4;
+}
+.bac{
+    background-color: #008ed6;
+    
+}
+.text-success .bac-text {
+    color: white;
+}
+.price-text p{
+    font-size: 17px;
+    color: #b4b4b4;
+}
+.price-text span {
+    color: #44adea;
+}
+
+.price-text .b-t-n {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    padding: 13px;
+    color: #008ed6;
+    margin-top: 30px;
+}
+.price-text .bac-b-tn {
+    background-color: #008ed6;
+    color: white;
+}
+/* ===============================================
+Contact section
+==================================================*/
+.contact-us-section{
+    background-color: #ededed;
+    padding: 50px 0px 0px;
+}
+.contact {
+    margin-bottom: 330px;
+    margin-top: 30px;
+}
+.contact-title{
+    padding: 30px 0px;
+}
+
+.contact-title h3{}
+
+.contact .contact-text p {
+    font-size: 18px;
+    color: #9b9b9b;
+    margin-top: 20px;
+}
+
+.map-section {
+    width: 100%;
+    background-image: url('../img/map.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 300px 0px;
+}
+/* ===============================================
+Contact us section
+==================================================*/
+.map-section{
+    position: relative;
+}
+.main-box-map {
+    position: absolute;
+    width: 50%;
+    background-color: #15141a;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding: 90px 70px;
+        
+}
+form .from-inner {
+    background-color: transparent;
+    padding: 19px;
+    border: 1px solid;
+}
+
+form .from-inner::placeholder,
+.form-group .mess-inner::placeholder {
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.form-group .mess-inner {
+    margin-bottom: 0px;
+    background-color: transparent;
+    border: 1px solid;
+}
+.form-group .send-btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    padding: 12px 20px;
+    background-color: #008ed6;
+    border: none;
+}
+
+
+/* ===============================================
+footer us section
+==================================================*/
+
+.footer-section {
+    padding: 50px 0px;
+    background-color: #15141a;
+}
+.nav-bar li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+.nav-bar li a {
+    display: block;
+    padding: 0px 15px;
+    color: white;
+}
+.nav-bar li a:hover{
+    color: #008ed6;
+}
+.footer-nav p {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
