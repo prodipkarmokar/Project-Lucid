@@ -323,6 +323,9 @@ Pricings section
     padding: 20px 30px;
     margin-bottom: 30px;
 }
+.text-co{
+    color: #008ed6;
+}
 .card .title h2 {
     font-weight: 700;
     text-transform: uppercase;
